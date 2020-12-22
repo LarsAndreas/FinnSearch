@@ -35,18 +35,4 @@ For å kjøre dette programmet må docker være installert.
 
 ### Hvordan lager du applikasjonen?
 
-Naviger til mappen som inneholder `docker-compose.yml` i terminalen din
-
-
-Deretter skriv dette i terminalen din
-```shell
-docker-compose build
-```
-
-Hvis du skriver dette vil docker lage en container og starte applikasjonen automatisk.
-```shell
-docker-compose up
-```
-
-For å se webapplikasjonen må du besøke denne linken
-http://localhost:5000/
+Det er en docker-fil i prosjektet som du kan kjøre for å starte prosjektet.
