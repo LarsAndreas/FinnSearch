@@ -22,6 +22,7 @@ function getItems(name, pageNr) {
 
 const searchInp = document.getElementById('SearchInp');
 const searchBtn = document.getElementById('SearchBtn');
+const table = document.getElementById('itemTable');
 
 searchBtn.addEventListener('click', search);
 
@@ -42,11 +43,10 @@ function search(e) {
 
 function reset() {
     page = 1;
-    $('#itemTable').textContent = '';
+    table.innerHTML = '';
 }
 
 function loadMore() {
-    console.log("this is ")
     if (alreadySearched) {
         page++;
         getItems(searchValue, page);
