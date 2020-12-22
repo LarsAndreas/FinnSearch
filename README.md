@@ -19,8 +19,8 @@ For å kjøre dette programmet med ISS Express må du ha visual studio installer
 
 ### Hvordan lager du applikasjonen?
 
-For å lage programmet må du laste ned github prosjektet og kjøre programmet med "IIS Express".
-Når du trykker på knappen for å kjøre, vil siden bli åpnet automatisk.
+For å lage programmet må du laste ned github prosjektet, åpne prosjektet i visual studio og kjøre programmet med "IIS Express".
+Når du trykker på knappen for å kjøre (et grønt trekant symbol, hvor det står skrevet "IIS Express"), vil siden bli åpnet automatisk.
 
 Docker
 ----------------
