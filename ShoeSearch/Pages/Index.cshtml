@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script></script>
+
+<h1>Search</h1>
+
+<div class="form-group">
+    <input id="SearchInp" class="form-control" type="text" asp-for="Search.name" placeholder="Name" />
+    <div class="col text-center mt-2">
+        <button id="SearchBtn" class="btn btn-primary" type="submit">Search</button>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody id="itemTable">
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="~/js/search.js" asp-append-version="true"></script>
+}
